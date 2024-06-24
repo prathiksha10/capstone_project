@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>HomePage</div>
+    <div>Home Page</div>
   );
 }
 
