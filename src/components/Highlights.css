@@ -1,0 +1,22 @@
+.Highlight{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleName{
+    color: #000000;
+    font-weight:medium;
+    font-size: 32pt;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin-right: 360px;
+    margin-left: -70px;
+}
+
+.Headline{
+    display: flex;         /* Enable flexbox layout */
+    align-items: center;   /* Vertically center the items */
+    justify-content: space-between; /* Space items evenly */
+    padding: 80px;
+}

@@ -7,12 +7,12 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
-    </>
+    <div className='.flex-container'>
+      <div className='.flex-item'><Header /></div>
+      <div className='.flex-item'><Nav /></div>
+      <div className='.flex-item'><Main /></div>
+      <div className='.flex-item'><Footer /></div>
+    </div>
   );
 }
 
